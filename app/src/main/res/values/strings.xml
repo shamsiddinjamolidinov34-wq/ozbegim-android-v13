@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">O‘zbegim</string>
+    <string name="service_description">Ekranda nima borligini ovoz bilan o\'qib beradi. Elementlar orasida sirpanib yuriladi, ikki marta bosib faollashtiriladi.</string>
+
+    <!-- Asosiy ekran -->
+    <string name="main_status_on">Xizmat holati: yoqilgan.</string>
+    <string name="main_status_off">Xizmat holati: o\'chirilgan. Pastdagi birinchi tugma orqali Maxsus imkoniyatlar sozlamalarini oching va O‘zbegim xizmatini yoqing.</string>
+    <string name="main_warning">Diqqat: TalkBack yoqilgan bo\'lsa, ikkala dastur bir vaqtda gapiradi. Sinovni zaxira qurilmada o\'tkazing. To\'xtatish: ikkala ovoz tugmasini uch soniya bosib turing.</string>
+    <string name="btn_enable">Maxsus imkoniyatlar sozlamalarini ochish</string>
+    <string name="btn_settings">Sozlamalar</string>
+    <string name="btn_test">Ovozni sinash</string>
+    <string name="btn_health">Tizim tekshiruvi</string>
+    <string name="btn_log">Xatolar jurnali</string>
+    <string name="btn_tts_settings">Nutq sintezi sozlamalarini ochish</string>
+    <string name="btn_battery">Batareya sozlamalarini ochish</string>
+    <string name="btn_install_voice">Ovoz ma\'lumotlarini o\'rnatish</string>
+    <string name="btn_share_log">Jurnalni ulashish</string>
+    <string name="btn_clear_log">Jurnalni tozalash</string>
+    <string name="test_phrase">O‘zbegim ishlayapti. Sinov matni: Settings, WhatsApp, Wi-Fi, Настройки, Сообщения. Ўзбекча, O\'zbekcha, Özbekçe: şahar, çoy, ğoya.</string>
+    <string name="test_not_running">Avval O‘zbegim xizmatini yoqing.</string>
+
+    <!-- Sozlamalar -->
+    <string name="pref_cat_speech">Nutq</string>
+    <string name="pref_cat_scripts">Til va yozuv</string>
+    <string name="pref_cat_privacy">Maxfiylik</string>
+    <string name="pref_rate">Nutq tezligi (foiz)</string>
+    <string name="pref_pitch">Ovoz toni (foiz)</string>
+    <string name="pref_script">Kirill yozuvi</string>
+    <string name="pref_new_latin">Yangilangan lotin: Ş Ç Ö Ğ harflari (sh, ch, o\', g\' deb o\'qiladi)</string>
+    <string name="pref_apostrophe">Apostrof turi (nutq dvigateliga yuboriladi)</string>
+    <string name="pref_bridge">Til ko\'prigi: inglizcha va ruscha so\'zlarni o\'zbekcha o\'qish</string>
+    <string name="pref_private">Maxfiy bildirishnomalarni quloqchinsiz o\'qimaslik</string>
+    <string name="pref_private_summary">Tasdiqlash kodi bor xabarlar karnayda o\'qilmaydi.</string>
+
+    <string-array name="bridge_entries">
+        <item>Moslashtirish (o\'zbekcha o\'qish)</item>
+        <item>O\'chirilgan</item>
+    </string-array>
+    <string-array name="bridge_values">
+        <item>adapt</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="script_entries">
+        <item>Avtomatik: dvigatel kirillni o\'qiy olmasa, lotinga o\'tkazadi</item>
+        <item>Doim lotinga o\'tkazish</item>
+        <item>O\'zgartirmaslik</item>
+    </string-array>
+    <string-array name="script_values">
+        <item>auto</item>
+        <item>latin</item>
+        <item>keep</item>
+    </string-array>
+    <string-array name="newlatin_entries">
+        <item>Avtomatik: turkcha matnga tegmaydi</item>
+        <item>Doim o\'zbekcha o\'qish</item>
+        <item>O\'zgartirmaslik</item>
+    </string-array>
+    <string-array name="newlatin_values">
+        <item>auto</item>
+        <item>uz</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="apostrophe_entries">
+        <item>Oddiy apostrof</item>
+        <item>Burilgan vergul</item>
+    </string-array>
+    <string-array name="apostrophe_values">
+        <item>ascii</item>
+        <item>modifier</item>
+    </string-array>
+
+    <!-- Rollar va holatlar (nutqda aytiladi) -->
+    <string name="role_button">tugma</string>
+    <string name="role_edit">tahrirlash maydoni</string>
+    <string name="role_password">parol maydoni</string>
+    <string name="role_checkbox">belgi katagi</string>
+    <string name="role_switch">o\'tkazgich</string>
+    <string name="role_radio">tanlov tugmasi</string>
+    <string name="role_image">rasm</string>
+    <string name="role_list">ro\'yxat</string>
+    <string name="role_heading">sarlavha</string>
+    <string name="role_link">havola</string>
+    <string name="role_seekbar">slayder</string>
+    <string name="role_spinner">ochiladigan ro\'yxat</string>
+    <string name="unlabeled">yorliqsiz</string>
+    <string name="state_checked">belgilangan</string>
+    <string name="state_unchecked">belgilanmagan</string>
+    <string name="state_on">yoqilgan</string>
+    <string name="state_off">o\'chirilgan</string>
+    <string name="state_disabled">faol emas</string>
+    <string name="state_selected">tanlangan</string>
+    <string name="state_expanded">ochilgan</string>
+    <string name="state_collapsed">yig\'ilgan</string>
+    <string name="state_percent">%1$d foiz</string>
+
+    <!-- Xabarlar (nutqda aytiladi) -->
+    <string name="msg_service_on">O‘zbegim yoqildi</string>
+    <string name="msg_safe_mode">Xavfsiz rejim: qo\'shimcha funksiyalar o\'chirilgan</string>
+    <string name="msg_suspended">O‘zbegim to\'xtatildi</string>
+    <string name="msg_resumed">O‘zbegim davom etmoqda</string>
+    <string name="msg_no_window">Oyna topilmadi</string>
+    <string name="msg_apps_failed">Ilovalar menyusi ochilmadi</string>
+    <string name="msg_first_item">Birinchi element</string>
+    <string name="msg_last_item">Oxirgi element</string>
+    <string name="mode_elements">Elementlar</string>
+    <string name="mode_headings">Sarlavhalar</string>
+    <string name="mode_controls">Boshqaruv elementlari</string>
+    <string name="mode_links">Havolalar</string>
+    <string name="msg_curtain_on">Ekran pardasi yoqildi</string>
+    <string name="msg_curtain_off">Ekran pardasi o\'chirildi</string>
+    <string name="msg_marked">Muammo belgilandi. Oxirgi o\'ttiz soniya jurnalga yozildi</string>
+    <string name="msg_status_time">Soat %1$s</string>
+    <string name="msg_status_battery">Batareya %1$s foiz</string>
+    <string name="msg_charging">quvvatlanmoqda</string>
+    <string name="msg_private_notification">Maxfiy xabar keldi. O\'qish uchun menyudan «Maxfiy xabarni o\'qish»ni tanlang yoki to\'rt barmoq bilan uch marta bosing</string>
+    <string name="msg_private_none">Maxfiy xabar yo\'q</string>
+    <string name="msg_bridge_none">Hozircha moslashtirilgan so\'z yo\'q</string>
+    <string name="msg_bridge_item">%1$s deb o\'qildi. Asli: %2$s</string>
+    <string name="msg_deleted">o\'chirildi %1$s</string>
+    <string name="msg_hidden_char">belgi</string>
+
+    <!-- Tizim tekshiruvi -->
+    <string name="health_ok">Yaxshi</string>
+    <string name="health_problem">Muammo</string>
+    <string name="health_service_on">O‘zbegim xizmati yoqilgan.</string>
+    <string name="health_service_off">O‘zbegim xizmati yoqilmagan.</string>
+    <string name="health_no_net_ok">Dastur tarmoq ruxsatini so\'ramaydi: ma\'lumot qurilmadan chiqmaydi.</string>
+    <string name="health_no_net_bad">Dastur tarmoq ruxsatini so\'ragan. Bu monografiyaning 11.2 talabiga zid.</string>
+    <string name="health_battery_ok">Batareya tejash cheklovidan ozod qilingan.</string>
+    <string name="health_battery_bad">Batareya tejash rejimi xizmatni to\'xtatib qo\'yishi mumkin. Pastdagi tugma bilan sozlamalarni oching.</string>
+    <string name="health_tts_engine">Nutq dvigateli: %1$s.</string>
+    <string name="health_tts_lang_ok">O\'zbek tili uchun ovoz mavjud.</string>
+    <string name="health_tts_lang_missing">O\'zbek tili uchun ovoz ma\'lumoti yo\'q. Ovoz ma\'lumotlarini o\'rnating yoki RHVoice kabi boshqa dvigatelni tanlang.</string>
+    <string name="health_tts_lang_unsupported">Tanlangan dvigatel o\'zbek tilini qo\'llamaydi. RHVoice kabi boshqa dvigatelni tanlang.</string>
+    <string name="health_tts_failed">Nutq dvigateli ishga tushmadi.</string>
+    <string name="health_rhvoice_yes">RHVoice o\'rnatilgan.</string>
+    <string name="health_rhvoice_no">RHVoice o\'rnatilmagan. U oflayn o\'zbek ovozini beradi va F-Droid yoki Google Play\'dan o\'rnatiladi.</string>
+    <string name="health_latency_none">Kechikish hali o\'lchanmagan. Bir necha element bo\'ylab yuring va qayta tekshiring.</string>
+    <string name="health_latency">Kechikish: o\'rtacha %1$d, p95 %2$d millisekund, %3$d o\'lchov. Maqsad: p95 150 dan oshmasin.</string>
+    <string name="health_crashes">So\'nggi o\'n daqiqadagi qulashlar soni: %1$d.</string>
+
+    <!-- Xatolar jurnali -->
+    <string name="log_title">Xatolar jurnali</string>
+    <string name="log_empty">Jurnal bo\'sh.</string>
+    <string name="log_privacy">Hisobot ekran matnini o\'z ichiga olmaydi: faqat hodisa turlari va vaqtlar.</string>
+    <string name="log_latency_header">Kechikish: p50 %1$d, p95 %2$d millisekund, %3$d o\'lchov.</string>
+    <string name="log_silence_no_audio">jimlik: nutq dvigateli javob bermadi</string>
+    <string name="log_silence_recovered">nutq avtomatik tiklandi</string>
+    <string name="log_tts_init_failed">nutq dvigateli ishga tushmadi</string>
+    <string name="log_tts_lang_missing">tanlangan til uchun ovoz topilmadi</string>
+    <string name="log_tts_engine_switched">nutq dvigateli qayta ishga tushirildi yoki almashtirildi</string>
+    <string name="log_tts_fallback_signal">nutq o\'rniga zaxira signal berildi</string>
+    <string name="log_tts_engine_error">nutq dvigateli xato qaytardi</string>
+    <string name="log_latency_budget">kechikish byudjeti oshdi: %1$s millisekund</string>
+    <string name="log_focus_node_failed">element tavsifida xato</string>
+    <string name="log_bridge_failed">til ko\'prigi xato berdi, asl matn o\'qildi</string>
+    <string name="log_crash_uncaught">dastur kutilmaganda to\'xtadi</string>
+    <string name="log_user_marked">foydalanuvchi muammo belgiladi</string>
+    <string name="log_safe_mode">xavfsiz rejim yoqildi</string>
+    <string name="log_audio_focus_lost">audio fokus yo\'qotildi</string>
+    <string name="log_unknown">noma\'lum hodisa</string>
+
+    <!-- Ikkinchi bosqich: yangi imkoniyatlar -->
+    <string name="btn_voices">Ovozlar</string>
+    <string name="btn_gestures">Ishoralar</string>
+    <string name="btn_tutorial">O\'quv mashqlari</string>
+    <string name="btn_dictionary">Talaffuz lug\'ati</string>
+    <string name="btn_labels">Maxsus yorliqlar</string>
+    <string name="btn_profiles">Ilova profillari</string>
+    <string name="btn_backup">Sozlamalarni eksport va import</string>
+    <string name="btn_save">Saqlash</string>
+    <string name="btn_install_rhvoice">RHVoice\'ni o\'rnatish</string>
+    <string name="btn_open_rhvoice">RHVoice ilovasini ochish</string>
+    <string name="btn_default_voice">Standart ovozga qaytish</string>
+    <string name="btn_reset_gestures">Ishoralarni asl holatga qaytarish</string>
+    <string name="btn_export">Eksport qilish (ulashish)</string>
+    <string name="btn_import">Import qilish (fayl tanlash)</string>
+    <string name="btn_understood">Tushundim</string>
+    <string name="btn_practice">Mashq tugmasi</string>
+    <string name="help_dictionary">Har qatorda: so\'z=talaffuz (masalan: settings=setings). Ilova bo\'yicha: paket|so\'z=talaffuz. # bilan boshlangan qator izoh. Noto\'g\'ri o\'qilgan so\'zni menyu orqali ham qo\'shish mumkin: menyuni oching (uch barmoq bilan bir marta bosing yoki pastga, so\'ng o\'ngga suring) va «So\'zni talaffuz lug\'atiga qo\'shish»ni tanlang.</string>
+    <string name="help_labels">Har qatorda: to\'liq_id=yorliq (masalan: com.ilova:id/send=Yuborish). Yorlig\'i yo\'q elementga fokus qo\'yib, chapga so\'ng pastga surilsa, uning identifikatori shu yerga qo\'shiladi.</string>
+    <string name="help_profiles">Har qatorda: paket=verbosity:short;echo:off;bridge:off;notify:off;chat:on;sensitive:on. verbosity: short, normal yoki full. Qolganlari: on yoki off. sensitive:on maxfiy ilova (bank, to\'lov) uchun: qora quti yozilmaydi, suhbat rejimi va nusxalash o\'chadi.</string>
+    <string name="voices_intro">O\'zbek ovozlari RHVoice orqali o\'rnatiladi: Islom, Dilnavoz va Sevinch. Avval RHVoice\'ni o\'rnating, uning ichida o\'zbek tili ovozini yuklab oling, so\'ng shu yerga qaytib ovozni tanlang. Ro\'yxat dvigatel bergan ovozlardan tuziladi.</string>
+    <string name="voices_license">Litsenziya: bu uchala ovoz CC BY-NC-SA 4.0 shartida tarqatiladi, ya\'ni faqat notijorat maqsadda. Shu sabab ovozlar ilovaga qo\'shilmagan.</string>
+    <string name="voices_none">O\'zbek tilidagi ovoz topilmadi. RHVoice\'ni o\'rnating yoki nutq sintezi sozlamalarini tekshiring.</string>
+    <string name="voice_listen">Tinglash: %1$s</string>
+    <string name="voice_choose">Tanlash: %1$s</string>
+    <string name="voice_saved">Ovoz saqlandi</string>
+    <string name="voice_sample">Salom! Bu ovoz namunasi: shahar, choy, Ўзбекистон, Özbekiston, 2026-yil.</string>
+    <string name="rhvoice_missing">RHVoice o\'rnatilmagan.</string>
+    <string name="gestures_intro">Har bir ishora uchun amalni tanlang. Profil almashtirilsa, shaxsiy o\'zgartirishlar tozalanadi.</string>
+    <string name="gesture_profile">Ishora profili</string>
+    <string name="profile_talkback">TalkBack-mos</string>
+    <string name="profile_voiceover">VoiceOver-mos</string>
+    <string name="pref_engine">Nutq dvigateli</string>
+    <string name="pref_voices">Ovoz tanlash (Islom, Dilnavoz, Sevinch)</string>
+    <string name="pref_verbosity">Tafsilot darajasi</string>
+    <string name="pref_echo_mode">Yozilgan matn e\'loni</string>
+    <string name="pref_mic">Mikrofon ochiq bo\'lganda nutq</string>
+    <string name="pref_earcons">Tovush signallari (tik, chegara, oyna)</string>
+    <string name="pref_gestures">Ishoralarni sozlash</string>
+    <string name="pref_cat_gestures">Boshqaruv</string>
+    <string name="mode_characters">Harflar</string>
+    <string name="mode_words">So\'zlar</string>
+    <string name="mode_lines">Qatorlar</string>
+    <string name="mode_paragraphs">Xatboshilar</string>
+    <string name="msg_call_done">Bajarildi</string>
+    <string name="msg_call_not_found">Qo\'ng\'iroq tugmasi topilmadi</string>
+    <string name="msg_no_view_id">Bu elementning identifikatori yo\'q</string>
+    <string name="msg_nothing_spoken">Hozircha hech narsa aytilmagan</string>
+    <string name="msg_copied">Nusxalandi</string>
+    <string name="msg_no_word">Lug\'atga qo\'shiladigan so\'z topilmadi</string>
+    <string name="msg_saved">Saqlandi</string>
+    <string name="state_position">%2$d tadan %1$d</string>
+    <string name="lesson_exit">Eng avval chiqish yo\'lini bilib oling. Ikkala ovoz tugmasini uch soniya bosib turing: O‘zbegim to\'xtaydi. Qaytadan shunday qilsangiz, davom etadi. Tushundim tugmasini toping va ikki marta bosing.</string>
+    <string name="lesson_1">1-mashq. Ekranda bir barmoq bilan o\'ngga suring.</string>
+    <string name="lesson_2">2-mashq. Chapga suring.</string>
+    <string name="lesson_3">3-mashq. Bir harakat bilan yuqoriga, so\'ng pastga suring: o\'qish boshqaruvi almashadi.</string>
+    <string name="lesson_4">4-mashq. Ikki barmoq bilan bir marta bosing: nutq to\'xtaydi.</string>
+    <string name="lesson_5">5-mashq. Uch barmoq bilan bir marta bosing: O\'zbegim menyusi ochiladi. Uni yopish uchun Yopish tugmasini toping va ikki marta bosing.</string>
+    <string name="lesson_6">6-mashq. Mashq tugmasini toping va ikki marta bosing.</string>
+    <string name="lesson_ok">To\'g\'ri.</string>
+    <string name="lesson_done">Barakalla! Mashqlar tugadi.</string>
+    <string name="backup_intro">Sozlamalar, ishoralar, talaffuz lug\'ati, maxsus yorliqlar va ilova profillari bitta faylga saqlanadi. Boshqa qurilmaga o\'tkazish uchun shu faylni import qiling.</string>
+    <string name="backup_imported">Import qilindi</string>
+    <string name="backup_failed">Fayl o\'qilmadi yoki versiyasi mos emas</string>
+    <string name="health_device">Qurilma: Android %1$s, API %2$d, %3$s.</string>
+    <string name="health_return_talkback">Muammo bo\'lsa: ikkala ovoz tugmasini uch soniya bosib turing, yoki Maxsus imkoniyatlar sozlamalarida TalkBack\'ni yoqing.</string>
+    <string-array name="engine_entries">
+        <item>Avtomatik: tizim dvigateli, o\'zbek tili bo\'lmasa RHVoice</item>
+        <item>RHVoice</item>
+        <item>Faqat tizim dvigateli</item>
+        <item>Microsoft Azure: Madina, Sardor (onlayn, internet va kalit kerak)</item>
+    </string-array>
+    <string-array name="engine_values">
+        <item>auto</item>
+        <item>rhvoice</item>
+        <item>system</item>
+        <item>azure</item>
+    </string-array>
+    <string-array name="verbosity_entries">
+        <item>Past</item>
+        <item>O\'rta</item>
+        <item>Yuqori</item>
+        <item>Maxsus</item>
+    </string-array>
+    <string-array name="verbosity_values">
+        <item>short</item>
+        <item>normal</item>
+        <item>full</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="echo_entries">
+        <item>Harflar</item>
+        <item>So\'zlar</item>
+        <item>Harflar va so\'zlar</item>
+        <item>O\'chirilgan</item>
+    </string-array>
+    <string-array name="echo_values">
+        <item>chars</item>
+        <item>words</item>
+        <item>both</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="mic_entries">
+        <item>Avtomatik xabarlar o\'chadi, bosganlaringiz past ovozda</item>
+        <item>Hammasi past ovozda</item>
+        <item>O\'zgarishsiz davom etadi</item>
+    </string-array>
+    <string-array name="mic_values">
+        <item>stop</item>
+        <item>duck</item>
+        <item>continue</item>
+    </string-array>
+    <string name="btn_apply_import">Import qilish</string>
+    <string name="backup_confirm_title">Sozlamalar import qilinsinmi?</string>
+    <string name="backup_confirm_message">Fayldan %1$d ta sozlama, %2$d ta lug\'at qatori, %3$d ta yorliq va %4$d ta ilova profili o\'qiladi. Faylda bor bo\'limlar hozirgi ma\'lumotlarni almashtiradi. Faqat o\'zingiz ishongan fayldan import qiling.</string>
+    <string name="msg_too_large">Matn juda katta: 200 000 belgidan oshmasin.</string>
+    <string name="msg_save_failed">Saqlab bo\'lmadi.</string>
+    <string name="log_slow_handler">Sekin ishlov: %1$s (%2$s), %3$s ms</string>
+    <!-- Onlayn imkoniyatlar (ixtiyoriy): Microsoft Azure ovozi, tarjima, AI tavsifi -->
+    <string name="pref_cat_online">Onlayn imkoniyatlar (ixtiyoriy)</string>
+    <string name="pref_online">Onlayn imkoniyatlarni yoqish</string>
+    <string name="pref_online_summary">Microsoft ovozlari, tarjima va sun\'iy intellekt tavsifi uchun. Standartda o\'chiq: yoqmaguningizcha tarmoqqa hech narsa yuborilmaydi.</string>
+    <string name="pref_azure_key">Microsoft Azure Speech kaliti</string>
+    <string name="pref_azure_region">Azure Speech mintaqasi (masalan, westeurope)</string>
+    <string name="pref_azure_voice">Microsoft ovozi</string>
+    <string name="pref_azure_quality">Microsoft ovozi sifati</string>
+    <string name="pref_ai_key">Claude (Anthropic) API kaliti</string>
+    <string name="pref_ai_model">Claude modeli (tarjima va tavsif uchun)</string>
+    <string name="pref_translate_to">Maqsad til</string>
+    <string name="pref_secret_empty">Kalit kiritilmagan</string>
+    <string name="pref_secret_saved">Kalit saqlangan (shifrlangan holda)</string>
+    <string name="online_consent_title">Onlayn imkoniyatlarni yoqasizmi?</string>
+    <string name="online_consent_message">Yoqsangiz: Microsoft ovozi tanlanganda aytiladigan matn Microsoft Azure serveriga yuboriladi. Tarjima yoki ekran tavsifi ishorasini bajarsangiz, fokusdagi matn yoki ekran rasmi tanlangan sun\'iy intellekt xizmati serveriga (Gemini, ChatGPT, Claude yoki siz ko\'rsatgan boshqa xizmat) yuboriladi. Bank va boshqa maxfiy ilovalarda, shuningdek parol va kodlar uchun hech narsa yuborilmaydi. Kalitlar qurilmada shifrlab saqlanadi. Tarmoq uzilsa, ovoz mahalliy dvigatelga qaytadi.</string>
+    <string name="btn_online_accept">Roziman, yoqish</string>
+    <string name="azure_voices_intro">Microsoft ovozlari (onlayn): internet va Azure Speech kaliti kerak (Sozlamalar, Onlayn imkoniyatlar). Sifat: 48 kHz. Tarmoq uzilsa, ovoz avtomatik mahalliy dvigatelga o\'tadi.</string>
+    <string name="azure_voice_saved">Microsoft ovozi tanlandi: %1$s</string>
+    <string name="btn_back_to_local">Mahalliy ovozga qaytish</string>
+    <string name="local_voice_restored">Mahalliy ovoz tanlandi</string>
+    <string name="msg_ai_not_ready">Onlayn imkoniyatlar yoqilmagan yoki kalit kiritilmagan. Sozlamalarni oching.</string>
+    <string name="msg_ai_sensitive">Maxfiy ilovada bu amal o\'chirilgan.</string>
+    <string name="msg_ai_working">Iltimos, kuting.</string>
+    <string name="msg_ai_failed">Javob olinmadi. Internet va kalitni tekshiring.</string>
+    <string name="msg_ai_busy">Oldingi so\'rov hali tugamadi.</string>
+    <string name="msg_ai_needs_api30">Bu amal Android 11 va undan yangi tizimda ishlaydi.</string>
+    <string name="msg_ai_screenshot_failed">Ekran rasmini olib bo\'lmadi.</string>
+    <string name="msg_nothing_to_translate">Tarjima qilinadigan matn yo\'q.</string>
+    <string name="msg_azure_key_bad">Microsoft ovoz kaliti qabul qilinmadi. Mahalliy ovozga o\'tildi.</string>
+    <string name="health_online_off">Onlayn imkoniyatlar o\'chiq: ma\'lumot qurilmadan chiqmaydi.</string>
+    <string name="health_online_on">Onlayn imkoniyatlar yoqilgan: faqat siz tanlaganingizda matn yoki rasm tashqi xizmatga yuboriladi.</string>
+    <string name="health_azure_key_yes">Microsoft Azure kaliti kiritilgan.</string>
+    <string name="health_azure_key_no">Microsoft Azure kaliti kiritilmagan.</string>
+    <string name="health_ai_key_yes">Sun\'iy intellekt kaliti kiritilgan.</string>
+    <string name="health_ai_key_no">Sun\'iy intellekt kaliti kiritilmagan.</string>
+    <string name="log_online_failed">Microsoft onlayn ovozi aytolmadi (%1$s); mahalliy ovozga o\'tildi.</string>
+    <string name="log_ai_failed">Onlayn so\'rov bajarilmadi (%1$s).</string>
+    <string-array name="azure_voice_entries">
+        <item>Madina (o\'zbek, ayol)</item>
+        <item>Sardor (o\'zbek, erkak)</item>
+        <item>Svetlana (rus, ayol)</item>
+        <item>Dmitriy (rus, erkak)</item>
+        <item>Jenny (ingliz, ayol)</item>
+        <item>Guy (ingliz, erkak)</item>
+    </string-array>
+    <string-array name="azure_voice_values">
+        <item>uz-UZ-MadinaNeural</item>
+        <item>uz-UZ-SardorNeural</item>
+        <item>ru-RU-SvetlanaNeural</item>
+        <item>ru-RU-DmitryNeural</item>
+        <item>en-US-JennyNeural</item>
+        <item>en-US-GuyNeural</item>
+    </string-array>
+    <string-array name="azure_quality_entries">
+        <item>48 kHz, 192 kbit/s (yuqori sifat, tavsiya)</item>
+        <item>48 kHz, 96 kbit/s (kam trafik)</item>
+    </string-array>
+    <string-array name="azure_quality_values">
+        <item>mp3_192</item>
+        <item>mp3_96</item>
+    </string-array>
+    <!-- Tarjima: manba til (birinchisi "Avtomatik") va maqsad til (standart: o'zbekcha). Qiymatlar Prefs.TRANSLATE_LANGS bilan bir xil -->
+    <string-array name="translate_from_entries">
+        <item>Avtomatik</item>
+        <item>O\'zbekcha</item>
+        <item>Ruscha</item>
+        <item>Inglizcha</item>
+        <item>Turkcha</item>
+        <item>Arabcha</item>
+        <item>Forscha</item>
+        <item>Tojikcha</item>
+        <item>Qozoqcha</item>
+        <item>Qirg\'izcha</item>
+        <item>Turkmancha</item>
+        <item>Xitoycha</item>
+        <item>Koreyscha</item>
+        <item>Yaponcha</item>
+        <item>Nemischa</item>
+        <item>Fransuzcha</item>
+        <item>Ispancha</item>
+        <item>Italyancha</item>
+    </string-array>
+    <string-array name="translate_from_values">
+        <item>auto</item>
+        <item>uz</item>
+        <item>ru</item>
+        <item>en</item>
+        <item>tr</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>tg</item>
+        <item>kk</item>
+        <item>ky</item>
+        <item>tk</item>
+        <item>zh</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="translate_entries">
+        <item>O\'zbekcha</item>
+        <item>O\'zbekcha (kirill)</item>
+        <item>Ruscha</item>
+        <item>Inglizcha</item>
+        <item>Turkcha</item>
+        <item>Arabcha</item>
+        <item>Forscha</item>
+        <item>Tojikcha</item>
+        <item>Qozoqcha</item>
+        <item>Qirg\'izcha</item>
+        <item>Turkmancha</item>
+        <item>Xitoycha</item>
+        <item>Koreyscha</item>
+        <item>Yaponcha</item>
+        <item>Nemischa</item>
+        <item>Fransuzcha</item>
+        <item>Ispancha</item>
+        <item>Italyancha</item>
+    </string-array>
+    <string-array name="translate_values">
+        <item>uz</item>
+        <item>uz-cyrl</item>
+        <item>ru</item>
+        <item>en</item>
+        <item>tr</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>tg</item>
+        <item>kk</item>
+        <item>ky</item>
+        <item>tk</item>
+        <item>zh</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="typing_entries">
+        <item>Standart: harf ikki marta bosilganda yoziladi</item>
+        <item>Teginib yozish: barmoq ko\'tarilganda harf yoziladi</item>
+    </string-array>
+    <string-array name="typing_values">
+        <item>standard</item>
+        <item>touch</item>
+    </string-array>
+    <!-- 0.4.1: sun'iy intellekt xizmatlari (Gemini, ChatGPT, Claude, boshqa) -->
+    <string name="btn_ai">Sun\'iy intellekt va onlayn imkoniyatlar</string>
+    <string name="ai_settings_title">Sun\'iy intellekt va onlayn imkoniyatlar</string>
+    <string name="pref_ai_open">Sun\'iy intellekt va onlayn imkoniyatlar (Gemini, ChatGPT, Claude, Microsoft ovozi)</string>
+    <string name="pref_ai_open_summary">Kalitlarni kiriting va onlayn imkoniyatlarni yoqing</string>
+    <string name="pref_ai_provider">Sun\'iy intellekt xizmati</string>
+    <string name="pref_cat_ai_keys">Sun\'iy intellekt kalitlari</string>
+    <string name="pref_cat_azure">Microsoft ovozi (Azure Speech)</string>
+    <string name="pref_gemini_key">Gemini (Google) kaliti</string>
+    <string name="pref_gemini_model">Gemini modeli</string>
+    <string name="pref_openai_key">ChatGPT (OpenAI) kaliti</string>
+    <string name="pref_openai_model">ChatGPT modeli</string>
+    <string name="pref_custom_url">Boshqa xizmat manzili (https, masalan: https://openrouter.ai/api/v1)</string>
+    <string name="pref_custom_key">Boshqa xizmat kaliti</string>
+    <string name="pref_custom_model">Boshqa xizmat modeli</string>
+    <string-array name="ai_provider_entries">
+        <item>Avtomatik (kaliti kiritilgan birinchisi)</item>
+        <item>Claude (Anthropic)</item>
+        <item>Gemini (Google)</item>
+        <item>ChatGPT (OpenAI)</item>
+        <item>Boshqa (OpenAI bilan mos xizmat)</item>
+    </string-array>
+    <string-array name="ai_provider_values">
+        <item>auto</item>
+        <item>claude</item>
+        <item>gemini</item>
+        <item>openai</item>
+        <item>custom</item>
+    </string-array>
+
+    <!-- 0.5.0: TalkBack-mos ishoralar, O'zbegim menyusi, element amallari, ekranda qidirish, tarjima tillari -->
+    <string name="pref_cat_translate">Tarjima</string>
+    <string name="pref_translate_from">Manba tili</string>
+    <string name="pref_translate_info_title">Tarjima haqida</string>
+    <string name="pref_translate_info">Manba tili «Avtomatik» bo\'lsa, matn tilini xizmat o\'zi aniqlaydi. Maqsad til standartda o\'zbekcha. Tarjima onlayn xizmat orqali bajariladi: onlayn imkoniyatlarni yoqing va sun\'iy intellekt kalitini kiriting. Ishora: ikki barmoq bilan ikki marta bosib ushlab turish, yoki O\'zbegim menyusidan «Tarjima qilish».</string>
+    <string name="pref_typing">Klaviatura rejimi</string>
+    <string name="mode_fields">Matn maydonlari</string>
+    <string name="mode_rate">Nutq tezligi</string>
+    <string name="msg_rate_set">Nutq tezligi: %1$d foiz</string>
+    <string name="msg_no_focus">Fokusda element yo\'q</string>
+    <string name="msg_action_failed">Amal bajarilmadi</string>
+    <string name="msg_no_actions">Bu elementda qo\'shimcha amallar yo\'q</string>
+    <string name="msg_menu_failed">Menyuni ochib bo\'lmadi</string>
+    <string name="msg_no_edit">Matn maydoni topilmadi</string>
+    <string name="msg_selected_all">Hammasi tanlandi</string>
+    <string name="msg_cut_done">Kesildi</string>
+    <string name="msg_pasted">Qo\'yildi</string>
+    <string name="msg_one_window">Boshqa oyna yo\'q</string>
+    <string name="msg_search_not_found">«%1$s» topilmadi</string>
+    <string name="menu_global_title">O\'zbegim menyusi</string>
+    <string name="menu_actions_title">Element amallari</string>
+    <string name="btn_close">Yopish</string>
+    <string name="search_title">Ekranda qidirish</string>
+    <string name="search_hint">Qidiriladigan matn</string>
+    <string name="search_go">Qidirish</string>
+    <string name="health_multifinger_ok">Ikki, uch va to\'rt barmoqli ishoralar qo\'llab-quvvatlanadi.</string>
+    <string name="health_multifinger_no">Bu Android versiyasida ikki, uch va to\'rt barmoqli ishoralar yo\'q (Android 10 va undan yangisi kerak). Bir barmoqli ishoralar ishlaydi.</string>
+
+    <!-- 0.5.1: aloqa va murojaat -->
+    <string name="pref_cat_contact">Aloqa</string>
+    <string name="btn_contact">Aloqa va murojaat</string>
+    <string name="contact_title">Aloqa va murojaat</string>
+    <string name="contact_intro">Savol, taklif yoki xato haqida yozing. «Xato haqida xat yozish» tugmasi xatga ilova va telefon versiyasini o\'zi qo\'shadi. Xatni yuborishdan oldin ko\'rasiz.</string>
+    <string name="contact_email_line">Elektron pochta: %1$s</string>
+    <string name="contact_telegram_line">Telegram: @%1$s</string>
+    <string name="contact_btn_mail">Xat yozish</string>
+    <string name="contact_btn_bug">Xato haqida xat yozish (versiya ma\'lumoti bilan)</string>
+    <string name="contact_btn_copy_mail">Elektron pochta manzilini nusxalash</string>
+    <string name="contact_btn_telegram">Telegramda yozish</string>
+    <string name="contact_btn_copy_telegram">Telegram nomini nusxalash</string>
+    <string name="contact_btn_log">Xatolar jurnalini ochish</string>
+    <string name="contact_mail_subject">O\'zbegim %1$s: murojaat</string>
+    <string name="contact_bug_subject">O\'zbegim %1$s: xato haqida</string>
+    <string name="contact_bug_body">Xatoni shu yerga yozing: nima qildingiz, nima bo\'ldi, nima kutgandingiz.\n\n---\nIlova: %1$s\nAndroid: %2$s\nQurilma: %3$s\nTil: %4$s\nXizmat: %5$s</string>
+    <string name="contact_on">yoqilgan</string>
+    <string name="contact_off">o\'chirilgan</string>
+    <string name="contact_no_mail">Pochta ilovasi topilmadi. Manzil nusxalandi.</string>
+    <string name="contact_no_telegram">Telegram ochilmadi. Nom nusxalandi.</string>
+    <string name="log_mail_subject">O\'zbegim: xatolar jurnali</string>
+
+    <!-- 0.6.0: tafsilotlar, tezlashtirish, avtomatik tarjima, ikki barmoq, Rim raqamlari -->
+    <string name="mode_verbosity">Tafsilotlar</string>
+    <string name="menu_details_title">Tafsilotlar</string>
+    <string name="menu_details_item">Tafsilotlar: %1$s</string>
+    <string name="details_level_row">Tafsilot darajasi: %1$s (almashtirish)</string>
+    <string name="details_open_settings">Tafsilotlar sozlamalarini ochish</string>
+    <string name="details_low">past</string>
+    <string name="details_medium">o\'rta</string>
+    <string name="details_high">yuqori</string>
+    <string name="details_custom">maxsus</string>
+    <string name="msg_details_level">Tafsilotlar: %1$s</string>
+    <string name="msg_detail_state">%1$s: %2$s</string>
+    <string name="menu_system_title">Tizim amallari</string>
+    <string name="menu_links_title">Mavjud havolalar</string>
+    <string name="msg_no_links">Havola topilmadi.</string>
+    <string name="menu_auto_tr">Avtomatik tarjima: %1$s</string>
+    <string name="msg_auto_tr_on">Avtomatik tarjima yoqildi. Endi o\'zbekcha bo\'lmagan matnlar o\'zbekchaga tarjima qilinib o\'qiladi.</string>
+    <string name="msg_auto_tr_on_not_uz">Avtomatik tarjima yoqildi. U telefon tili o\'zbekcha bo\'lganda ishlaydi.</string>
+    <string name="msg_auto_tr_off">Avtomatik tarjima o\'chirildi.</string>
+    <string name="msg_auto_tr_need_key">Avtomatik tarjima uchun sun\'iy intellekt kaliti kerak. Kalit kiritish ekrani ochilmoqda.</string>
+    <string name="msg_auto_tr_failed">Tarjima xizmati javob bermadi. Hozircha asl matn o\'qiladi.</string>
+    <string name="auto_tr_consent_title">Avtomatik tarjima ekrandagi matnlarni (maxfiy ilovalar, parollar va tasdiqlash kodlaridan tashqari) siz tanlagan sun\'iy intellekt xizmatiga yuboradi. Onlayn imkoniyatlar yoqilsinmi?</string>
+    <string name="auto_tr_consent_yes">Ha, yoqish</string>
+    <string name="auto_tr_consent_no">Yo\'q</string>
+    <string name="hint_activate">faollashtirish uchun ikki marta bosing</string>
+    <string name="hint_edit">tahrirlash uchun ikki marta bosing</string>
+    <string name="hint_long_press">uzoq bosish uchun ikki marta bosib ushlab turing</string>
+    <string name="speed_normal">oddiy</string>
+    <string name="speed_fast">tezkor</string>
+    <string name="speed_turbo">eng tezkor</string>
+    <string name="msg_speed_set">Javob tezligi: %1$s</string>
+    <string name="details_title">Tafsilotlar</string>
+    <string name="details_cat_preset">Daraja</string>
+    <string name="details_cat_speak">Nimalar aytiladi</string>
+    <string name="details_cat_volume">Ovoz balandligi</string>
+    <string name="pref_details_open">Tafsilotlar</string>
+    <string name="pref_details_open_summary">Tugma va rasm turi, ro\'yxat o\'rni, ko\'rsatmalar, ovoz balandligi o\'zgarganda o\'qish</string>
+    <string name="det_type_btn">Tugma va rasm turini aytish</string>
+    <string name="det_type_btn_summary">O\'chiq bo\'lsa, tugma va rasm faqat nomi bilan o\'qiladi: «Orqaga», «Orqaga, tugma» emas.</string>
+    <string name="det_type">Boshqa element turlarini aytish</string>
+    <string name="det_type_summary">Ro\'yxat, sarlavha, havola, slayder va h.k. Tahrirlash maydoni, parol maydoni va o\'tkazgich turi doim aytiladi.</string>
+    <string name="det_position">Ro\'yxat va jadvaldagi o\'rnini aytish</string>
+    <string name="det_position_summary">Masalan: «10 tadan 3».</string>
+    <string name="det_hints">Foydalanish ko\'rsatmalari</string>
+    <string name="det_hints_summary">Masalan: «faollashtirish uchun ikki marta bosing».</string>
+    <string name="det_order">Tavsif tartibi</string>
+    <string name="det_window_titles">Oyna sarlavhalarini aytish</string>
+    <string name="det_window_titles_summary">Yangi oyna yoki ekran ochilganda uning nomi aytiladi.</string>
+    <string name="det_screen_off">Ekran o\'chiq bo\'lganda ham gapirish</string>
+    <string name="det_screen_off_summary">O\'chirilsa, ekran o\'chiq paytida bildirishnoma va avtomatik xabarlar o\'qilmaydi.</string>
+    <string name="det_volume_keep">Ovoz balandligi o\'zgarganda o\'qishni to\'xtatmaslik</string>
+    <string name="det_volume_keep_summary">Ovoz tugmalari bosilganda hozirgi o\'qish to\'xtamaydi va fokus ovoz paneliga o\'tmaydi.</string>
+    <string name="pref_cat_speed">Tezlashtirish</string>
+    <string name="pref_speed">Javob tezligi</string>
+    <string name="pref_speed_summary">Harakatlanish va javob berishdagi sekinlikni kamaytiradi. «Tezkor» standart. «Eng tezkor» kutishlarni yana qisqartiradi, lekin yorlig\'i yo\'q ba\'zi qatorlarning ichki matnlari kamroq o\'qiladi.</string>
+    <string name="pref_auto_translate">Avtomatik tarjima (o\'zbekchaga)</string>
+    <string name="pref_auto_translate_summary">Telefon tili o\'zbekcha bo\'lsa, boshqa tildagi matnlar tilni o\'zi aniqlab, o\'zbekchaga tarjima qilinadi va o\'qiladi. Onlayn xizmat va sun\'iy intellekt kaliti kerak.</string>
+    <string name="pref_translate_script">Tarjima yozuvi</string>
+    <string name="pref_two_finger">Ikki barmoqli surishni ilovaga o\'tkazish</string>
+    <string name="pref_two_finger_summary">Qulf ekranini ikki barmoq bilan ochish uchun kerak. «Doim» tanlansa, ba\'zi ilovalarda (masalan, Telegram) tasodifiy chimchilash ekran va tugmalarni kichraytirib yuborishi mumkin.</string>
+    <string name="btn_details">Tafsilotlar</string>
+    <string name="auto_tr_btn_on">Avtomatik tarjima: yoqilgan. O\'chirish uchun bosing</string>
+    <string name="auto_tr_btn_off">Avtomatik tarjima: o\'chirilgan. Yoqish uchun bosing</string>
+    <string name="auto_tr_dialog_title">Avtomatik tarjima</string>
+    <string name="auto_tr_need_key">Avtomatik tarjima uchun sun\'iy intellekt (Gemini, ChatGPT, Claude yoki boshqa) kaliti kerak. Kalit kiritish ekranini ochamizmi?</string>
+    <string name="auto_tr_open_ai">Ochish</string>
+    <string name="auto_tr_consent_message">Avtomatik tarjima yoqilganda ekrandagi matnlar (maxfiy deb belgilangan ilovalar, parol maydonlari va tasdiqlash kodlaridan tashqari) siz tanlagan sun\'iy intellekt xizmatiga yuboriladi. Onlayn imkoniyatlar ham yoqiladi. Davom etasizmi?</string>
+
+    <string-array name="det_order_entries">
+        <item>Nom, tur, holat</item>
+        <item>Tur, nom, holat</item>
+        <item>Holat, nom, tur</item>
+    </string-array>
+    <string-array name="det_order_values">
+        <item>name_type_state</item>
+        <item>type_name_state</item>
+        <item>state_name_type</item>
+    </string-array>
+    <string-array name="speed_entries">
+        <item>Oddiy</item>
+        <item>Tezkor</item>
+        <item>Eng tezkor</item>
+    </string-array>
+    <string-array name="speed_values">
+        <item>normal</item>
+        <item>fast</item>
+        <item>turbo</item>
+    </string-array>
+    <string-array name="translate_script_entries">
+        <item>O\'zbek lotin (hozirgi)</item>
+        <item>O\'zbek kirill</item>
+        <item>Yangi alifbo (Ş Ç Ö Ğ)</item>
+    </string-array>
+    <string-array name="translate_script_values">
+        <item>latin</item>
+        <item>cyrl</item>
+        <item>new</item>
+    </string-array>
+    <string-array name="two_finger_entries">
+        <item>Faqat qulf ekranida (tavsiya)</item>
+        <item>Doim</item>
+        <item>O\'chiq</item>
+    </string-array>
+    <string-array name="two_finger_values">
+        <item>keyguard</item>
+        <item>always</item>
+        <item>off</item>
+    </string-array>
+    <!-- Nutq tezligi va toni: aniq son, 1 foizlik qadam; matn bo'ylab yurish va harflab o'qish -->
+    <string name="pref_value_summary">Hozir: %1$d foiz. Bosing: aniq son yozish yoki 1 foizdan o‘zgartirish</string>
+    <string name="pref_rate_step">Ishora bilan tezlik va ton qadami</string>
+    <string name="number_dialog_hint">Qiymat %1$d dan %2$d gacha (foiz). Aniq sonni yozing yoki tugmalar bilan 1 yoki 10 foizdan o‘zgartiring.</string>
+    <string name="number_dialog_value">%1$d foiz</string>
+    <string name="number_dialog_minus">%1$d foizga kamaytirish</string>
+    <string name="number_dialog_plus">%1$d foizga oshirish</string>
+    <string name="number_dialog_test">Eshitib ko‘rish</string>
+    <string name="number_dialog_default">Standart qiymat: %1$d foiz</string>
+    <string name="number_dialog_save">Saqlash</string>
+    <string name="number_dialog_cancel">Bekor qilish</string>
+    <string name="msg_pitch_set">Ovoz toni: %1$d foiz</string>
+    <string name="msg_no_text">Matn yo‘q</string>
+    <string name="msg_text_start">Matn boshi</string>
+    <string name="msg_text_end">Matn oxiri</string>
+    <string name="menu_reading_title">O‘qish boshqaruvini tanlang</string>
+    <string name="menu_reading_current">%1$s, hozirgi</string>
+    <string-array name="rate_step_entries">
+        <item>1 foiz</item>
+        <item>2 foiz</item>
+        <item>5 foiz</item>
+        <item>10 foiz (standart)</item>
+        <item>20 foiz</item>
+    </string-array>
+    <string-array name="rate_step_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+</resources>

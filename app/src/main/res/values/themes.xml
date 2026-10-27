@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Reader" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+    <!-- Ekranda qidirish oynasi: orqadagi ilova ko'rinib turadi -->
+    <style name="Theme.Reader.Dialog" parent="Theme.AppCompat.DayNight.Dialog" />
+</resources>

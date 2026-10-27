@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tahrirlagich maydoni: doimiy identifikator bo'lsa, ekran aylanganda yozilgan matn yo'qolmaydi -->
+    <item name="editor_text" type="id" />
+</resources>

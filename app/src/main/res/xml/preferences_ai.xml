@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_cat_online">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="online_enabled"
+            app:summary="@string/pref_online_summary"
+            app:title="@string/pref_online" />
+        <ListPreference
+            app:defaultValue="auto"
+            app:entries="@array/ai_provider_entries"
+            app:entryValues="@array/ai_provider_values"
+            app:key="ai_provider"
+            app:title="@string/pref_ai_provider"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_ai_keys">
+        <EditTextPreference
+            app:key="gemini_key"
+            app:title="@string/pref_gemini_key" />
+        <EditTextPreference
+            app:defaultValue="gemini-flash-latest"
+            app:key="gemini_model"
+            app:title="@string/pref_gemini_model"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="openai_key"
+            app:title="@string/pref_openai_key" />
+        <EditTextPreference
+            app:defaultValue="gpt-5.4-mini"
+            app:key="openai_model"
+            app:title="@string/pref_openai_model"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="ai_key"
+            app:title="@string/pref_ai_key" />
+        <EditTextPreference
+            app:defaultValue="claude-haiku-5-5"
+            app:key="ai_model"
+            app:title="@string/pref_ai_model"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="custom_url"
+            app:title="@string/pref_custom_url"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="custom_key"
+            app:title="@string/pref_custom_key" />
+        <EditTextPreference
+            app:key="custom_model"
+            app:title="@string/pref_custom_model"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_cat_azure">
+        <EditTextPreference
+            app:key="azure_key"
+            app:title="@string/pref_azure_key" />
+        <EditTextPreference
+            app:defaultValue="westeurope"
+            app:key="azure_region"
+            app:title="@string/pref_azure_region"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="uz-UZ-MadinaNeural"
+            app:entries="@array/azure_voice_entries"
+            app:entryValues="@array/azure_voice_values"
+            app:key="azure_voice"
+            app:title="@string/pref_azure_voice"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="mp3_192"
+            app:entries="@array/azure_quality_entries"
+            app:entryValues="@array/azure_quality_values"
+            app:key="azure_quality"
+            app:title="@string/pref_azure_quality"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
